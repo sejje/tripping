@@ -15,6 +15,7 @@ loop forever:
 class Website:
   urls
   last_status
+  frequency
   Website.test()
   Website.stats()
 
