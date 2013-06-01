@@ -1,0 +1,26 @@
+credentials.yml
+
+
+alert.py
+
+
+
+
+loop forever:
+  1) check queue for actionable item based on time
+	  (store time-for-next, not time-of-last (just compute once))
+	  is item an object? yup
+
+
+class Website:
+  urls
+  last_status
+  Website.test()
+  Website.stats()
+
+class Sucker()
+  name
+  email
+  phone
+  Sucker.email()
+  Sucker.sms()
