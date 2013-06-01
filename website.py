@@ -45,11 +45,11 @@ class Website:
 
 	def alert(self):
 		for sucker in self.suckers:
-			sucker.sms(self.url, self.last_response)
+			sucker.sms(self.url, self.last_response, "down")
 
 	def alert_up(self):
 		for sucker in self.suckers:
-			sucker.sms(self.url, self.last_response)
+			sucker.sms(self.url, self.last_response, "up")
 
 	def report(self):
 		print self.url + ": " + str(self.last_response)

@@ -4,5 +4,5 @@ class Sucker:
 		self.email = email
 		self.phone = phone
 
-	def sms(self, url, response):
-		print "SMS to " + self.name
+	def sms(self, url, response, message):
+		print "SMS to " + self.name + ": " + message
