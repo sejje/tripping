@@ -22,4 +22,5 @@ Deploy to heroku:
     git push heroku master
 
 Start the process:
+
     heroku scale:ps worker=1
