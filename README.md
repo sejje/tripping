@@ -6,7 +6,7 @@ Site uptime monitoring script, heroku deployable.
 
 Instructions for heroku:
 
-Edit tripping.py to match your details. SMSing is not implemented, but I use an SMS email address provided by my provider in the form of 1234567890@text.att.net
+Edit tripping.py to match your details. SMSing is not implemented, but I use an SMS email address provided by my provider in the form of 1234567890@text.att.net. Phone numbers are currently unused.
 
 Set the environment variables for the email server:
 
