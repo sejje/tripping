@@ -2,14 +2,13 @@ from website import Website
 from sucker import Sucker
 import time
 
-interval = 10
+interval = 600
 
-jesse = Sucker("Jesse", "5015451677@text.att.net", "5015451677")
-david = Sucker("David", "2393316539@messaging.sprintpcs.com", "2393316539")
+jesse = Sucker("Jesse", "sejje@sejje.net", "501XXXXXXX")
 
 suckers = [jesse]
 
-urls = ["http://www.positionlogic.com/", "http://threetwelvecreative.com/", "http://aspg.com/", "http://mohhaiti.org/", "http://swflresourcelink.com/"]
+urls = ["http://www.google.com/", "http://ebay.com/"]
 
 websites = []
 for url in urls:
