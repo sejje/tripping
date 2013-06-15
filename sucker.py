@@ -16,7 +16,7 @@ class Sucker:
 		email_server = os.environ['EMAIL_SERVER']
 		email_address = os.environ['EMAIL_ADDRESS']
 		email_password = os.environ['EMAIL_PASSWORD']
-		msg = "\n" + message + ": " + url + "(" + response + ")"
+		msg = "\n" + message + ": " + url + " (" + str(response) + ")"
 		server = smtplib.SMTP(email_server)
 		server.starttls()
 		server.login(email_address, email_password)
