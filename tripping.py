@@ -4,12 +4,12 @@ import time
 
 interval = 10
 
-jesse = Sucker("Jesse", "sejje@sejje.net", "5015451677")
-david = Sucker("David", "david.dewhirst@threetwelvecreative.com", "239XXXXXXX")
+jesse = Sucker("Jesse", "5015451677@text.att.net", "5015451677")
+david = Sucker("David", "2393316539@messaging.sprintpcs.com", "2393316539")
 
-suckers = [jesse, david]
+suckers = [jesse]
 
-urls = ["http://sejje.net/", "http://jessebriggs.net/superduperman"]
+urls = ["http://www.positionlogic.com/", "http://threetwelvecreative.com/", "http://aspg.com/", "http://mohhaiti.org/", "http://swflresourcelink.com/"]
 
 websites = []
 for url in urls:
