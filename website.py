@@ -23,7 +23,7 @@ class Website:
 	def check(self):
 		def get_interval():
 			if self.status == 1:
-				return 5
+				return 60 #wait this many seconds to verify site is down
 			else:
 				return self.interval
 
