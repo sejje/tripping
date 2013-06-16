@@ -14,8 +14,6 @@ websites = []
 for url in urls:
 	websites.append(Website(url, interval, suckers))
 
-w = Website(urls[0], interval, suckers)
-
 while True:
 	for site in websites:
 		site.run()
