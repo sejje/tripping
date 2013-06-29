@@ -58,4 +58,4 @@ class Website:
 	def run(self):
 		if time.time() > self.time_for_next:
 			self.check()
-			print self.url + ": next check in " + str(self.time_for_next - time.time()) + " seconds"
+			#print self.url + ": next check in " + str(self.time_for_next - time.time()) + " seconds"
