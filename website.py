@@ -32,11 +32,12 @@ class Website:
 			self.status += 1
 			if self.status == 2:
 				self.alert()
+				self.report()
 			else:
 				self.report()
 		else:
 			self.clear()
-			self.report()
+			#self.report() #report 200 codes?
 
 		self.set_next_time(get_interval())
 
